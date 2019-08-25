@@ -8,6 +8,9 @@ This project plan to include below features
 1. PLC simulator using Processing codes
 
 
+![main image](/Images/arduino_plc1.png)
+
+
 # GUI PLC Ladder Editor
 GUI PLC Ladder Editor includes belows features
 
