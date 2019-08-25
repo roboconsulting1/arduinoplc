@@ -20,9 +20,21 @@ GUI PLC Ladder Editor includes belows features
 This project includes two sub projects
 
 * Arduino.PLC
-  - This project folder include C# project for PLC Ladder GUI Editor and Arduino uploader
+  - This project folder includes C# project for PLC Ladder GUI Editor and Arduino uploader
 
 * PLC.Simulator
-  - This project folder include Processing sketch codes for PLC simulation
+  - This project folder includes Processing sketch codes for PLC simulation
+
+* Samples
+  - This folder includes ladder sample scripts
   
+* Tutorials
+  - This folder includes tutorial materials for ladder programming
+  
+
+# How to start
+1. You can download C# source code or just can run executable file below bin folder
+1. In order to run PLC simulator, you should download Processing tool
+
+
   
