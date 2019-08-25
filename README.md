@@ -8,6 +8,9 @@ This project plan to include below features
 1. PLC simulator using Processing codes
 
 
+![main image](/Images/arduino_plc1.png)
+
+
 # GUI PLC Ladder Editor
 GUI PLC Ladder Editor includes belows features
 
@@ -33,8 +36,13 @@ This project includes two sub projects
   
 
 # How to start
-1. You can download C# source code or just can run executable file below bin folder
+1. You can download C# source code or can run executable file within release link
 1. In order to run PLC simulator, you should download Processing tool
+
+
+# Development tools and languages
+1. Visual Studio and C# (.Net Framework 2.0)
+1. Processing
 
 
   
