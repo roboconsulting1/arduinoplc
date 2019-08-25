@@ -1,1 +1,26 @@
-To Do
+                string compiler_c_elf_cmd = "\"" + cur_path + _arduino_version_path + "/hardware/tools/avr/bin/avr-g++.exe\" ";
+                string compiler_c_elf_flags = " -w -Os -Wl,--gc-sections ";
+
+                string compiler_c_cmd = "\"" + cur_path + _arduino_version_path + "/hardware/tools/avr/bin/avr-gcc.exe\" ";
+                string compiler_cpp_cmd = "\"" + cur_path + _arduino_version_path + "/hardware/tools/avr/bin/avr-g++.exe\" ";
+
+                string compiler_hex_build_cmd = "\"" + cur_path + _arduino_version_path + "/hardware/tools/avr/bin/avr-objcopy.exe\" ";
+                string compiler_size_check_cmd = "\"" + cur_path + _arduino_version_path + "/hardware/tools/avr/bin/avr-size.exe\" ";
+                string compiler_upload_cmd = "\"" + cur_path + _arduino_version_path + "/hardware/tools/avr/bin/avrdude.exe\" ";
+
+                string avrdude_config_path =  " ./" + _arduino_version_path + "/hardware/tools/avr/etc/avrdude.conf ";
+                
+
+                string arduino_archietct = "ARDUINO_ARCH_AVR";  
+
+                string compiler_cpp_flags = " -c -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -D ARDUINO=200 -D HAVE_HWSERIAL0  -D " + arduino_archietct;
+
+                string build_mcu = "atmega328p";
+                string build_f_cpu = "16000000L";
+                string build_board = "AVR_UNO";
+
+                string build_varient = "standard";
+
+                string variant_sub_dir = " -I\"./" + _arduino_version_path + "/hardware/arduino/avr/variants/" + build_varient + "\" ";
+
+                string custom_lib_inc_path = variant_sub_dir;
