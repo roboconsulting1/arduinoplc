@@ -23,4 +23,3 @@
 
                 string variant_sub_dir = " -I\"./" + _arduino_version_path + "/hardware/arduino/avr/variants/" + build_varient + "\" ";
 
-                string custom_lib_inc_path = variant_sub_dir;
