@@ -1,0 +1,7 @@
+<variable>:<value>
+<variable>:<value>
+
+P0000:1
+M0000:0
+P0040:1
+C0000:0
