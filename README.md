@@ -1,4 +1,4 @@
-# arduinoplc
+# Arduino PLC Project
 GUI PLC Ladder Editor for Arduino Uno
 
 This project plan to include below features
