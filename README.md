@@ -36,7 +36,7 @@ This project includes two sub projects
   
 
 # How to start
-1. You can download C# source code or just can run executable file below bin folder
+1. You can download C# source code or can run executable file within release link
 1. In order to run PLC simulator, you should download Processing tool
 
 
