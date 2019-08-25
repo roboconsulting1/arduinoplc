@@ -40,7 +40,7 @@ This project includes two sub projects
 1. In order to run PLC simulator, you should download Processing tool
 
 
-# Development Tools and Languages
+# Development tools and languages
 1. Visual Studio and C# (.Net Framework 2.0)
 1. Processing
 
