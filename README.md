@@ -1,2 +1,2 @@
 # arduinoplc
-PLC Ladder coding editor for Arduino Uno
+GUI PLC Ladder coding for Arduino Uno
